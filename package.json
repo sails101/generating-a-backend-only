@@ -1,0 +1,23 @@
+{
+  "name": "@sails101/api-driven-development",
+  "version": "1.0.0",
+  "description": "API Driven Development with Sails.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sails101/api-driven-development.git"
+  },
+  "keywords": [
+    "sails",
+    "sailsjs"
+  ],
+  "author": "Travis Webb <tjwebb@balderdash.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sails101/api-driven-development/issues"
+  },
+  "homepage": "https://github.com/sails101/api-driven-development#readme"
+}
