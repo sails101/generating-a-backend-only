@@ -32,6 +32,17 @@ module.exports.connections = {
     adapter: 'sails-disk'
   },
 
+  dockerPostgres: {
+    adapter: 'waterline-postgresql',
+    connection: {
+      host: '192.168.99.100',
+      port: '32775',
+      user: 'postgres',
+      password: 'pgdocker',
+      database: 'bdash_sailsdemo'
+    }
+  },
+
   /***************************************************************************
   *                                                                          *
   * MySQL is the world's most popular relational database.                   *
