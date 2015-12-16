@@ -13,7 +13,7 @@ module.exports = {
     },
 
     roles: {
-      collection: 'Role',
+      collection: 'Roles',
       via: 'users'
     }
   }
